@@ -10,7 +10,7 @@
 		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>Chapter 4 - &lt;missing title&gt;</title>
+			<title>Chapter 4 - Some Title</title>
 			<link>/posts/chapter4/</link>
 			<pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
 			
@@ -21,7 +21,7 @@
 		</item>
 		
 		<item>
-			<title>Chapter 3 - &lt;missing title&gt;</title>
+			<title>Chapter 3 - Some Title</title>
 			<link>/posts/chapter3/</link>
 			<pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
 			
@@ -32,7 +32,7 @@
 		</item>
 		
 		<item>
-			<title>Chapter 2 - &lt;missing title&gt;</title>
+			<title>Chapter 2 - Some Title</title>
 			<link>/posts/chapter2/</link>
 			<pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
 			
