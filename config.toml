@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "Alexander Bauer & Johannes Stark"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -32,7 +32,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # description = ""
+  description = "Merry Crispmas. A festive, data-driven Christmas story"
   # images = [""]
   themeColor = "#494f5c"
 
@@ -57,24 +57,28 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/_BauerAlex_"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "email"
+    url = "mailto:alex.bauer93@posteo.de,jojostark1@gmx.de"
+    
+  #[[params.social]]
+  #  name = "instagram"
+  #  url = "https://instagram.com/"
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/"
+  #[[params.social]]
+  #  name = "github"
+  #  url = "https://github.com/"
 
 [menu]
 
   [[menu.main]]
     name = "Chapters"
-    url = "posts/"
+    url = "chapters/"
     weight = 10
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
