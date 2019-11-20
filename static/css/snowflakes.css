@@ -1,7 +1,8 @@
 
+/* source for the snowflakes animation: https://premiumcoding.com/css3-tricks-falling-snow-css/*/
 
 /* main container */
-.container{
+.snowflakesContainer{
 	top:0px;
 	width:100%;
 	height:100%;
@@ -18,7 +19,7 @@
     display: inline-block;
     width: 20px;
     height: 21px;
-	margin: -280px 60px 54px  -34px;
+	margin: -400px 60px 54px  -34px;
 	background:url("../img/snowflake.png");
     
     -webkit-animation: fallingSnow 12s infinite  cubic-bezier(0.35,0.45,0.39,0.29);
