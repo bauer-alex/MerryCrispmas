@@ -52,10 +52,24 @@
 	
 
 
-<audio autoplay>
-  <source src="/music/alle_jahre_wieder_c.ogg" type="audio/ogg">
-  <source src="/music/alle_jahre_wieder_c.mp3" type="audio/mpeg">
+
+<audio autoplay id="audioplayer">
+  <source type="audio/mpeg">
 </audio>
+
+
+<script>
+var songs =
+[
+    { filename: "/music/alle_jahre_wieder_c.mp3" },
+    { filename: "/music/jingle_bells_e.mp3" },
+];
+var randomIndex = Math.floor(Math.random() * songs.length);
+var song = songs[randomIndex];
+document.getElementById("audioplayer").src = song.filename;
+</script>
+
+
 
 
 <div class="snowflakesContainer" style="z-index:-1">

@@ -3,15 +3,14 @@ date: "2019-12-01"
 title: About
 ---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Evtl kurzer, lockerer Text über das Projekt
 
-It makes use of a variety of open source projects including:
+Texts written by Alexander Bauer & Johannes Stark
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Christmas songs: arranged by Alexander Bauer
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+We thank:
 
+* A
+* B
+* C
