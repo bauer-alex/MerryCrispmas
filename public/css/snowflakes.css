@@ -1,6 +1,10 @@
 
 /* source for the snowflakes animation: https://premiumcoding.com/css3-tricks-falling-snow-css/*/
 
+body {
+  overflow-x: hidden;
+}
+
 /* main container */
 .snowflakesContainer{
 	top:0px;
