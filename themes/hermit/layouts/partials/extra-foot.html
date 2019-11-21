@@ -1,5 +1,5 @@
 
-<!-- some Christmas music -->
+<!-- some Christmas music and a button to toggle snowflake action -->
 <!-- (a random song of the listed files is played) -->
 
 <!-- hidden audio player -->
@@ -8,9 +8,15 @@
   <source id="audioSource_ogg" type="audio/ogg">
 </audio>
 <!-- visible play/pause button -->
-<button id="playButton">
+<button id="audioButton" class="playPauseButton">
   <img src="/img/musical-note.svg" style="width:20px"/>
-  <img id="playButton_mainImage" src="/img/play-button.svg" style="width:20px"/>
+  <img id="audioButton_mainImage" src="/img/play-button.svg" style="width:12px"/>
+</button>
+
+<!-- visible button to toggle snowflake action -->
+<button id="snowflakeButton" class="playPauseButton">
+  <img src="/img/snowflake.png" style="width:20px"/>
+  <img id="snowflakeButton_mainImage" src="/img/pause.svg" style="width:12px; filter: invert(85%);"/>
 </button>
 
 
@@ -25,8 +31,8 @@ var song = songs[randomIndex];
 document.getElementById("audioSource_mp3").src = song.file_mp3;
 document.getElementById("audioSource_ogg").src = song.file_ogg;
 
-document.getElementById("playButton").onclick = function() {
-  x = document.getElementById("playButton_mainImage");
+document.getElementById("audioButton").onclick = function() {
+  x = document.getElementById("audioButton_mainImage");
   a = document.getElementById("audioplayer");
   if (x.src.includes("/img/play-button.svg")) {
     a.play();
@@ -36,12 +42,24 @@ document.getElementById("playButton").onclick = function() {
     x.src = "/img/play-button.svg";
   }
 };
+
+document.getElementById("snowflakeButton").onclick = function() {
+  x = document.getElementById("snowflakeButton_mainImage");
+  s = document.getElementById("snowflakesDiv");
+  if (x.src.includes("/img/play-button.svg")) {
+    s.style.visibility = "visible";
+    x.src = "/img/pause.svg";
+  } else {
+    s.style.visibility = "hidden";
+    x.src = "/img/play-button.svg";
+  }
+}
 </script>
 
 
 
 <!-- Snowflakes (one span is one snowflake) -->
-<div class="snowflakesContainer" style="z-index:-1">
+<div id="snowflakesDiv" class="snowflakesContainer" style="z-index:-1">
 	<div class="fallingSnow">
 		<span></span>
 		<span></span>
