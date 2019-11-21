@@ -5,7 +5,7 @@
 screen, which makes the whole page horizontally scrollable. Disable such
 scrolling behavior */
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
