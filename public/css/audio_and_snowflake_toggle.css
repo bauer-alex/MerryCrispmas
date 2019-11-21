@@ -14,11 +14,11 @@
 
 #audioButton {
   top: 10px;
-  right: 10px;
+  right: 0px;
   filter: invert(85%);
 }
 
 #snowflakeButton {
   top: 40px;
-  right:10px;
+  right:0px;
 }
