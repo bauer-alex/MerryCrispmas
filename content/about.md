@@ -13,7 +13,7 @@ Resources for this website:
 using the [hermit theme](https://github.com/Track3/hermit)
 * Some clip art graphics were taken from [pixabay.com](https://pixabay.com/users/3455592-3455592/)
 * The snowflake animation was taken from [premiumcoding.com](https://premiumcoding.com/css3-tricks-falling-snow-css/)
-* Christmas songs were arranged and recorded by Alexander Bauer
+* Christmas songs were arranged and performed by Alexander Bauer
 * Audio player icons were made by [Chanut](https://www.flaticon.com/authors/chanut)
 from [flaticon.com](https://www.flaticon.com/" title="Flaticon")
 
