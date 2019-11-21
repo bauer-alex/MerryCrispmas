@@ -1,20 +1,41 @@
 
 <!-- some Christmas music -->
 <!-- (a random song of the listed files is played) -->
-<audio autoplay id="audioplayer">
-  <source type="audio/mpeg">
+
+<!-- hidden audio player -->
+<audio id="audioplayer">
+  <source id="audioSource_mp3" type="audio/mpeg">
+  <source id="audioSource_ogg" type="audio/ogg">
 </audio>
+<!-- visible play/pause button -->
+<button id="playButton">
+  <img src="/img/musical-note.svg" style="width:20px"/>
+  <img id="playButton_mainImage" src="/img/play-button.svg" style="width:20px"/>
+</button>
 
 
 <script>
 var songs =
 [
-    { filename: "/music/alle_jahre_wieder_c.mp3" },
-    { filename: "/music/jingle_bells_e.mp3" },
+    { file_mp3: "/music/alle_jahre_wieder_c.mp3", file_ogg: "/music/alle_jahre_wieder_c.ogg"  },
+    { file_mp3: "/music/jingle_bells_e.mp3",      file_ogg: "/music/jingle_bells_e.ogg" },
 ];
 var randomIndex = Math.floor(Math.random() * songs.length);
 var song = songs[randomIndex];
-document.getElementById("audioplayer").src = song.filename;
+document.getElementById("audioSource_mp3").src = song.file_mp3;
+document.getElementById("audioSource_ogg").src = song.file_ogg;
+
+document.getElementById("playButton").onclick = function() {
+  x = document.getElementById("playButton_mainImage");
+  a = document.getElementById("audioplayer");
+  if (x.src.includes("/img/play-button.svg")) {
+    a.play();
+    x.src = "/img/pause.svg";
+  } else {
+    a.pause();
+    x.src = "/img/play-button.svg";
+  }
+};
 </script>
 
 

@@ -18,16 +18,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/thexyz/</loc>
-    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/chapters/chapter3/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
@@ -48,8 +38,7 @@
   </url>
   
   <url>
-    <loc>/tags/thepreparations/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

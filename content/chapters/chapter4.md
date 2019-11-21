@@ -2,9 +2,9 @@
 date: "2019-12-22"
 draft: false
 featuredImg: ""
-tags:
-- TheXYZ
-title: Chapter 4 - Some Title
+title: Chapter 4
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="/img/Button 1.svg" alt="Good Ol' Claus" style="height:150px"/>
+
+Chapter 4 will be published on the fourth Advent. Stay tuned!

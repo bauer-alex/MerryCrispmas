@@ -91,19 +91,21 @@
 
 
 <audio autoplay id="audioplayer">
-  <source type="audio/mpeg">
+  <source id="audioSource_mp3" type="audio/mpeg">
+  <source id="audioSource_ogg" type="audio/ogg">
 </audio>
 
 
 <script>
 var songs =
 [
-    { filename: "/music/alle_jahre_wieder_c.mp3" },
-    { filename: "/music/jingle_bells_e.mp3" },
+    { file_mp3: "/music/alle_jahre_wieder_c.mp3", file_ogg: "/music/alle_jahre_wieder_c.ogg"  },
+    { file_mp3: "/music/jingle_bells_e.mp3",      file_ogg: "/music/jingle_bells_e.ogg" },
 ];
 var randomIndex = Math.floor(Math.random() * songs.length);
 var song = songs[randomIndex];
-document.getElementById("audioplayer").src = song.filename;
+document.getElementById("audioSource_mp3").src = song.file_mp3;
+document.getElementById("audioSource_ogg").src = song.file_ogg;
 </script>
 
 

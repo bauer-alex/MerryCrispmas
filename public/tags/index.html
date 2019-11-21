@@ -15,7 +15,6 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/tags/" />
 
-<meta property="og:updated_time" content="2019-12-22T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tags"/>
 <meta name="twitter:description" content="Merry Crispmas. A festive, data-driven Christmas story"/>
@@ -31,6 +30,7 @@
 	<link rel="alternate" type="application/rss+xml" href="/tags/index.xml" title="Tags" />
 	<link rel="stylesheet" href="/css/style.min.20e6e5df1f989a2a36ed7cbce604b2672cfea0e8acef9930825ffb5f85914012.css" integrity="sha256-IObl3x+Ymio27Xy85gSyZyz+oOis75kwgl/7X4WRQBI=" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/snowflakes.css">
+	<link rel="stylesheet" href="/css/audioPlayer.css">
 </head>
 
 <body id="page">
@@ -63,23 +63,6 @@
 
 	<main class="site-main section-inner thin animated fadeIn faster">
 		<h1>Tags</h1>
-		<div class="posts-group">
-			<div class="post-year" id="2019">2019</div>
-			<ul class="posts-list">
-				<li class="post-item">
-					<a href="/tags/thexyz/">
-						<span class="post-title">TheXYZ</span>
-						<span class="post-day">Dec 22</span>
-					</a>
-				</li>
-				<li class="post-item">
-					<a href="/tags/thepreparations/">
-						<span class="post-title">ThePreparations</span>
-						<span class="post-day">Dec 1</span>
-					</a>
-				</li>
-			</ul>
-		</div>
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
@@ -96,20 +79,41 @@
 
 
 
-<audio autoplay id="audioplayer">
-  <source type="audio/mpeg">
+
+
+<audio id="audioplayer">
+  <source id="audioSource_mp3" type="audio/mpeg">
+  <source id="audioSource_ogg" type="audio/ogg">
 </audio>
+
+<button id="playButton">
+  <img src="/img/musical-note.svg" style="width:20px"/>
+  <img id="playButton_mainImage" src="/img/play-button.svg" style="width:20px"/>
+</button>
 
 
 <script>
 var songs =
 [
-    { filename: "/music/alle_jahre_wieder_c.mp3" },
-    { filename: "/music/jingle_bells_e.mp3" },
+    { file_mp3: "/music/alle_jahre_wieder_c.mp3", file_ogg: "/music/alle_jahre_wieder_c.ogg"  },
+    { file_mp3: "/music/jingle_bells_e.mp3",      file_ogg: "/music/jingle_bells_e.ogg" },
 ];
 var randomIndex = Math.floor(Math.random() * songs.length);
 var song = songs[randomIndex];
-document.getElementById("audioplayer").src = song.filename;
+document.getElementById("audioSource_mp3").src = song.file_mp3;
+document.getElementById("audioSource_ogg").src = song.file_ogg;
+
+document.getElementById("playButton").onclick = function() {
+  x = document.getElementById("playButton_mainImage");
+  a = document.getElementById("audioplayer");
+  if (x.src.includes("/img/play-button.svg")) {
+    a.play();
+    x.src = "/img/pause.svg";
+  } else {
+    a.pause();
+    x.src = "/img/play-button.svg";
+  }
+};
 </script>
 
 
