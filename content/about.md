@@ -19,7 +19,7 @@ from [flaticon.com](https://www.flaticon.com/" title="Flaticon")
 
 A big thanks goes to:
 
-* Carina "Nina" Landgraf for valuable gag suggestions
+* Carina "Nina" Stark for valuable gag suggestions
 * The [Loretta Bar](http://www.loretta-bar.de/) (including Bud Spencer) in Munich
 for an inspiring writing atmosphere
 * The [Wank](https://zugspitze.de/en/winter/mountain/wank) for the insight
