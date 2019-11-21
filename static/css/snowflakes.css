@@ -1,6 +1,13 @@
 
 /* source for the snowflakes animation: https://premiumcoding.com/css3-tricks-falling-snow-css/*/
 
+/* adjust the overflow of the whole page body as otherwise scrollbars appear
+and disappear every now and then when one flake crosses the right website border */
+body {
+  overflow: hidden;
+}
+
+
 /* main container */
 .snowflakesContainer{
 	top:0px;

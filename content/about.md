@@ -13,6 +13,7 @@ Resources for this website:
 
 * Created with blogdown -> Link
 * hermit theme -> Link
+* Ersteller von den Weihnachtsmann- etc. Cliparts
 * Schneeflockenquelle verlinken
 * Play / Pause / Musik Symbolquellen verlinken
 
