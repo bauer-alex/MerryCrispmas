@@ -125,10 +125,10 @@ document.getElementById("snowflakeButton").onclick = function() {
   x = document.getElementById("snowflakeButton_mainImage");
   s = document.getElementById("snowflakesDiv");
   if (x.src.includes("/img/play-button.svg")) {
-    s.style.visibility = "visible";
+    s.style.display = "block";
     x.src = "/img/pause.svg";
   } else {
-    s.style.visibility = "hidden";
+    s.style.display = "none";
     x.src = "/img/play-button.svg";
   }
 }
