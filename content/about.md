@@ -3,14 +3,20 @@ date: "2019-12-01"
 title: About
 ---
 
-Evtl kurzer, lockerer Text über das Projekt
+Kurzer, lockerer Text über das Projekt
 
 Texts written by Alexander Bauer & Johannes Stark
 
 Christmas songs: arranged by Alexander Bauer
 
+Resources for this website:
+
+* Created with blogdown -> Link
+* hermit theme -> Link
+* Schneeflockenquelle verlinken
+* Play / Pause / Musik Symbolquellen verlinken
+
 We thank:
 
-* A
-* B
-* C
+* Loretta's Bar (and Bud Spencer) in Munich for long hours of creative sessions
+* Carina "Nina" Landgraf for valuable gag suggestions

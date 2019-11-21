@@ -1,6 +1,14 @@
 
 /* source for the snowflakes animation: https://premiumcoding.com/css3-tricks-falling-snow-css/*/
 
+/* on smaller displays / on smartphones some snowflakes tend to flow out of the
+screen, which makes the whole page horizontally scrollable. Disable such
+scrolling behavior */
+body {
+  overflow-x: hidden;
+}
+
+
 /* main container */
 .snowflakesContainer{
 	top:0px;
@@ -16,10 +24,11 @@
     text-align: center;
 }
 .fallingSnow span {
+    z-index: -1;
     display: inline-block;
     width: 20px;
     height: 21px;
-	  margin: -280px 60px 150px -34px;
+	  margin: -280px 260px 150px -34px;
 	  background:url("../img/snowflake.png");
     
     -webkit-animation: fallingSnow 15s infinite  cubic-bezier(0.35,0.45,0.39,0.29);
