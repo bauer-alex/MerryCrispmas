@@ -45,12 +45,11 @@
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Kurzer, lockerer Text über das Projekt
-Texts written by Alexander Bauer &amp;amp; Johannes Stark
-Christmas songs: arranged by Alexander Bauer
+      <description>some text introducing the project
+All texts were written by Alexander Bauer &amp;amp; Johannes Stark
 Resources for this website:
- Created with blogdown -&amp;gt; Link hermit theme -&amp;gt; Link Ersteller von den Weihnachtsmann- etc. Cliparts Schneeflockenquelle verlinken Play / Pause / Musik Symbolquellen verlinken  We thank:
- Loretta&amp;rsquo;s Bar (and Bud Spencer) in Munich for long hours of creative sessions Carina &amp;ldquo;Nina&amp;rdquo; Landgraf for valuable gag suggestions  </description>
+ The website is based on blogdown, using the hermit theme Some clip art graphics were taken from pixabay.com The snowflake animation was taken from premiumcoding.com Christmas songs were arranged and recorded by Alexander Bauer Audio player icons were made by Chanut from flaticon.com  A big thanks goes to:
+ Carina &amp;ldquo;Nina&amp;rdquo; Landgraf for valuable gag suggestions The Loretta Bar (including Bud Spencer) in Munich for an inspiring writing atmosphere The Wank for the insight that the world is missing Data Science-themed Christmas stories  </description>
     </item>
     
     <item>
