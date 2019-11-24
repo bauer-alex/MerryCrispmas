@@ -13,6 +13,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
 
+disableKinds = ["RSS"]
+
 [author]
   name = "Alexander Bauer & Johannes Stark"
 
