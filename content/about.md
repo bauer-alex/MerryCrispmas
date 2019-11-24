@@ -3,7 +3,13 @@ date: "2019-12-01"
 title: About
 ---
 
-Merry Crispmas is a private, non-commercial project.
+Merry Crispmas is a private project created by us,
+[Alexander Bauer](https://www.en.stablab.stat.uni-muenchen.de/people/doktoranden/bauer1/index.html)
+and [Johannes Stark](https://www.linkedin.com/in/johannes-stark-3b187b143),
+two Statisticians / Data Scientists from Munich, Germany.
+We hope you enjoy the stories! If you want to reach out to us,
+we are always happy to get some feedback, either via Twitter or e-mail. :)  
+Enjoy your read!
 
 A big thanks goes to:
 
