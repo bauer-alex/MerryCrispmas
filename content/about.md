@@ -3,9 +3,7 @@ date: "2019-12-01"
 title: About
 ---
 
-some text introducing the project
-
-All texts were written by Alexander Bauer & Johannes Stark
+Merry Crispmas is a private, non-commercial project.
 
 A big thanks goes to:
 
@@ -19,6 +17,7 @@ Image by <a href="https://pixabay.com/users/OpenClipart-Vectors-30363/">OpenClip
 
 Resources for this website:
 
+* All texts were written by Alexander Bauer & Johannes Stark
 * The website was built with [blogdown](https://github.com/rstudio/blogdown),
 using the [Hermit theme](https://github.com/Track3/hermit) for Hugo
 * Some clip art graphics were taken from [pixabay.com](https://pixabay.com/)
