@@ -22,3 +22,7 @@ The tea ran comfortably warming down the palate of Claus. He did well after the 
 After a brief moment of silence, only disturbed by Claus’ smacking, Loretta began to tell of old times. Claus learned a lot about life on Artificial Island. Hard work and selflessness were values that were capitalized in Seaborn. The simple life was hard but fulfilling. Under the previous king’s reign, the people stuck together like a prickle of porcupines. Now, however, for the first time in decades, the mood threatened to change. »We should be careful not to forget our roots. The new king doesn't even rule for long, but I can feel there’s evil afoot. You are a good fellow, Claus. My senses have never deceived me in these things.«
 
 Meanwhile, the dissatisfied villagers gathered in the tavern...
+
+
+Continue the journey with <a href="https://merry-crispmas.netlify.com/chapters/chapter3/">Chapter 3</a>.
+
