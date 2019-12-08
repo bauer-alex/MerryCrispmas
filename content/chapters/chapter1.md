@@ -5,7 +5,7 @@ featuredImg: ""
 title: Chapter 1 - The Preparations
 ---
 
-<img src="/img/Eisbaer.png" alt="Beppi, the Bayesian Bear" style="height:150px"/>
+<img src="/img/Eisbaer_small.png" alt="Beppi, the Bayesian Bear" style="height:150px"/>
 
 The whole nation of Artificial Island held its breath…  
 The so-called »forwards election« just came to an end and very soon the new king of the small island state – lovingly called AI by its inhabitants - would be proclaimed.  

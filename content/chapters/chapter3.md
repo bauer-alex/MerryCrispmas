@@ -5,6 +5,6 @@ featuredImg: ""
 title: Chapter 3
 ---
 
-<img src="/img/Rentier.png" alt="Rudi, the ROCking Raindeer" style="height:150px"/>
+<img src="/img/Rentier_small.png" alt="Rudi, the ROCking Raindeer" style="height:150px"/>
 
 Chapter 3 will be published on the third Advent. Stay tuned!

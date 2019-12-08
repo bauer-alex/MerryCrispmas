@@ -5,7 +5,7 @@ featuredImg: ""
 title: Chapter 2 - A Perfect Fit
 ---
 
-<img src="/img/Schneemann.png" alt="Schorsch, the Standard Snowman" style="height:150px"/>
+<img src="/img/Schneemann_small.png" alt="Schorsch, the Standard Snowman" style="height:150px"/>
 
 »Good morning, my darling!«  
 He blinked and received a big kiss on his cheek. »Get up Softmax! The elders need to see you.« Even though he was king now, his mother was still overseeing his numerous objectives. She was a logistic genius. Before she left him in his drowsiness, she randomly walked around his room for some moments, approached the main window and pulled the curtains aside.  

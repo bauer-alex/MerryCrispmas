@@ -5,6 +5,6 @@ featuredImg: ""
 title: Chapter 4
 ---
 
-<img src="/img/Santa Claus.png" alt="Good Ol' Claus" style="height:150px"/>
+<img src="/img/Santa Claus_small.png" alt="Good Ol' Claus" style="height:150px"/>
 
 Chapter 4 will be published on the fourth Advent. Stay tuned!
