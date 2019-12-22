@@ -78,11 +78,16 @@ disableKinds = ["RSS"]
 [menu]
 
   [[menu.main]]
-    name = "Chapters"
-    url = "chapters/"
+    name   = "Chapters"
+    url    = "chapters/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "about/"
+    name   = "About"
+    url    = "about/"
     weight = 20
+    
+  [[menu.main]]
+    name   = "Get the eBook"
+    url    = "https://www.amazon.de/dp/B082ZCZN79"
+    weight = 30
