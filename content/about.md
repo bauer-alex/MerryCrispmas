@@ -9,7 +9,7 @@ Merry Crispmas is a private project created by us,
 and <a href="https://www.linkedin.com/in/johannes-stark-3b187b143">Johannes Stark</a>,
 two Statisticians / Data Scientists from Munich, Germany.
 If you want to reach out to us,
-we are always happy to get some feedback, either via e-mail or Twitter. :)  
+we are always happy to get some feedback via e-mail. :)  
 <br/>
 Enjoy your read!
 </div>
