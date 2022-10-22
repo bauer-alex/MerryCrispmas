@@ -15,6 +15,9 @@ disableKinds = ["RSS"]
 [author]
   name = "Alexander Bauer & Johannes Stark"
 
+[markup.goldmark.renderer]
+  unsafe = true # otherwise html tags in .md posts are not rendered
+
 [blackfriday]
   # hrefTargetBlank = true
   # noreferrerLinks = true
