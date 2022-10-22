@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="https://merry-crispmas.netlify.app/css/style.min.037b6ee8f8c1baab6a3d0a9da11c3ff18a7552471f16c59fd98538d5ce99208b.css" integrity="sha256-A3tu6PjBuqtqPQqdoRw/8Yp1UkcfFsWf2YU41c6ZIIs=" crossorigin="anonymous">
 	
 	<link rel="stylesheet" href="https://merry-crispmas.netlify.app/css/general.css">
+	<link rel="stylesheet" href="https://merry-crispmas.netlify.app/css/snowflakes.css">
+	<link rel="stylesheet" href="https://merry-crispmas.netlify.app/css/audio_and_snowflake_toggle.css">
 </head>
 
 <body id="page">
@@ -59,6 +61,104 @@
 	<script src="https://merry-crispmas.netlify.app/js/bundle.min.580988ed2982bcbb74a1773c7abea97b43e4c43b9324e10cda0813ec6ec4bb67.js" integrity="sha256-WAmI7SmCvLt0oXc8er6pe0PkxDuTJOEM2ggT7G7Eu2c=" crossorigin="anonymous"></script>
 	
 
+
+
+
+
+<audio id="audioplayer">
+  <source id="audioSource_mp3" type="audio/mpeg">
+  <source id="audioSource_ogg" type="audio/ogg">
+</audio>
+
+<button id="audioButton" class="playPauseButton">
+  <img src="/img/musical-note.svg" style="width:20px"/>
+  <img id="audioButton_mainImage" src="/img/play-button.svg" style="width:12px"/>
+</button>
+
+
+<button id="snowflakeButton" class="playPauseButton">
+  <img src="/img/snowflake.png" style="width:20px"/>
+  <img id="snowflakeButton_mainImage" src="/img/pause.svg" style="width:12px; filter: invert(85%);"/>
+</button>
+
+
+<script>
+var songs =
+[
+    { file_mp3: "/music/alle_jahre_wieder_c.mp3", file_ogg: "/music/alle_jahre_wieder_c.ogg"  },
+    { file_mp3: "/music/jingle_bells_e.mp3",      file_ogg: "/music/jingle_bells_e.ogg" },
+];
+var randomIndex = Math.floor(Math.random() * songs.length);
+var song = songs[randomIndex];
+document.getElementById("audioSource_mp3").src = song.file_mp3;
+document.getElementById("audioSource_ogg").src = song.file_ogg;
+
+document.getElementById("audioButton").onclick = function() {
+  x = document.getElementById("audioButton_mainImage");
+  a = document.getElementById("audioplayer");
+  if (x.src.includes("/img/play-button.svg")) {
+    a.play();
+    x.src = "/img/pause.svg";
+  } else {
+    a.pause();
+    x.src = "/img/play-button.svg";
+  }
+};
+
+document.getElementById("snowflakeButton").onclick = function() {
+  x = document.getElementById("snowflakeButton_mainImage");
+  s = document.getElementById("snowflakesDiv");
+  if (x.src.includes("/img/play-button.svg")) {
+    s.style.display = "block";
+    x.src = "/img/pause.svg";
+  } else {
+    s.style.display = "none";
+    x.src = "/img/play-button.svg";
+  }
+}
+</script>
+
+
+
+
+<div id="snowflakesDiv" class="snowflakesContainer" style="z-index:-1">
+	<div class="fallingSnow">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		
+	
+	
+	</div>
+	
+</div>
 </body>
 
 </html>
