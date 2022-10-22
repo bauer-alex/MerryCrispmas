@@ -16,7 +16,7 @@
 <!-- visible button to toggle snowflake action -->
 <button id="snowflakeButton" class="playPauseButton">
   <img src="/img/snowflake.png" style="width:20px"/>
-  <img id="snowflakeButton_mainImage" src="/img/pause.svg" style="width:12px; filter: invert(85%);"/>
+  <img id="snowflakeButton_mainImage" src="/img/play-button.svg" style="width:12px; filter: invert(85%);"/>
 </button>
 
 
@@ -59,7 +59,7 @@ document.getElementById("snowflakeButton").onclick = function() {
 
 
 <!-- Snowflakes (one span is one snowflake) -->
-<div id="snowflakesDiv" class="snowflakesContainer" style="z-index:-1">
+<div id="snowflakesDiv" class="snowflakesContainer" style="z-index:-1; display:none">
 	<div class="fallingSnow">
 		<span></span>
 		<span></span>
