@@ -25,7 +25,7 @@ disableKinds = ["RSS"]
   # Categories are disabled by default.
 
 [params]
-  customCSS = ["css/general.css", "css/snowflakes.css", "css/audio_and_snowflake_toggle.css"]
+  customCSS = ["css/general.css"] #, "css/snowflakes.css", "css/audio_and_snowflake_toggle.css"]
   
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
